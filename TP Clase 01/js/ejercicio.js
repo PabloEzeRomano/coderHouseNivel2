@@ -1,0 +1,10 @@
+var inputNumberA = parseInt(prompt("Ingrese un numero"));
+var inputNumberB = parseInt(prompt("Ingrese otro numero"));
+result = inputNumberA + inputNumberB;
+alert('La suma entre ' + inputNumberA + ' y ' + inputNumberB + ' es ' + result);
+result = inputNumberA - inputNumberB;
+alert('La resta entre ' + inputNumberA + ' y ' + inputNumberB + ' es ' + result);
+result = inputNumberA * inputNumberB;
+alert('El producto entre ' + inputNumberA + ' y ' + inputNumberB + ' es ' + result);
+result = inputNumberA / inputNumberB;
+alert('El cociente entre ' + inputNumberA + ' y ' + inputNumberB + ' es ' + result);
